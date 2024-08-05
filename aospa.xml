@@ -5,7 +5,7 @@
   <remove-project name="platform/art" />
   <project path="art" name="AOSPA/android_art" remote="aospa" />
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
+  <project path="bionic" name="thubble/android_bionic" revision="uvite" remote="github" />
   <remove-project name="platform/build/bazel" />
   <project path="build/bazel" name="AOSPA/android_build_bazel" remote="aospa" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
@@ -79,7 +79,7 @@
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
+  <project path="frameworks/base" name="thubble/android_frameworks_base" revision="uvite" remote="github" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="AOSPA/android_frameworks_libs_systemui" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
